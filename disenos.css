@@ -54,8 +54,13 @@ ul {
   .img4 {
     float: center;
   }
-  div.relative {
-    position: relative;
-    left: 200px;
-    border: 3px solid #111;
+
+
+.tam{
+  width: 100% !important; 
+  max-width: 500px !important; 
+}
+.boxcenter{
+  width: 100%;
+  text-align:center;
 }
