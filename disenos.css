@@ -72,6 +72,11 @@ ul {
   font-family:'Times New Roman', Times, serif; color: rgb(255, 255, 254);
 }
 
+.letra{
+  font-family:'Times New Roman', Times, serif; color: rgb(0, 0, 0);
+
+}
+
 .tam1{
   width: 100% !important; 
   max-width: 300px !important;
