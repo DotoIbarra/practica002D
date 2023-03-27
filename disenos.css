@@ -120,3 +120,23 @@ ul {
   max-width: 400px !important;
   max-height: 400px !important;  
 }
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: red;
+  color: white;
+  text-align: center;
+}
+.zoom2 {
+  transition: transform .2s; /* Animation */
+  width: 200px;
+  height: 200px;
+  margin: 0 auto;
+}
+
+.zoom2:hover {
+  transform: scale(1.012); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
